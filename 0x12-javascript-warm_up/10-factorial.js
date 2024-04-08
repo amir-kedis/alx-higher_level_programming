@@ -2,7 +2,7 @@
 
 const args = process.argv;
 
-function factorial(n) {
+function factorial (n) {
   if (n === 0) {
     return 1;
   }
@@ -10,7 +10,7 @@ function factorial(n) {
 }
 
 if (args[2] === undefined) {
-  console.log("1");
+  console.log('1');
 } else {
   console.log(factorial(parseInt(args[2])));
 }
